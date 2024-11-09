@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/your-repo-name/static/js/main.31d6cfe0.js",
-    "index.html": "/your-repo-name/index.html"
+    "main.js": "/portfolio-website/static/js/main.31d6cfe0.js",
+    "index.html": "/portfolio-website/index.html"
   },
   "entrypoints": [
     "static/js/main.31d6cfe0.js"
