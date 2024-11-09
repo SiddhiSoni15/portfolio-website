@@ -10,7 +10,7 @@
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
-  "homepage": "https://yourusername.github.io/your-repo-name",
+  "homepage": "https://SiddhiSoni15.github.io/portfolio-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
