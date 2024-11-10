@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header className="header">
+      <div className="logo">
+        <h1>Siddhi Soni</h1> {/* Replace with an image tag if you have a logo */}
+      </div>
       <nav>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>

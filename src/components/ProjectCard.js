@@ -8,7 +8,7 @@ function ProjectCard({ title, description, imgSrc, link }) {
       whileHover={{ scale: 1.05 }}
       transition={{ type: 'spring', stiffness: 300 }}
     >
-      <img src={imgSrc} alt={title} />
+      <img src="C:\Users\Lenovo\Desktop\Tech\web\Portfolio website\src\components\project card.jpg" alt="Project card" />
       <h3>{title}</h3>
       <p>{description}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>

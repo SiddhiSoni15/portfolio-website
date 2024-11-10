@@ -1,11 +1,17 @@
+/* Projects.css */
 .projects {
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .projects-list {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-  
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.projects-list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}

@@ -5,10 +5,10 @@ import './Projects.css';
 function Projects() {
   const projects = [
     {
-      title: 'Project One',
-      description: 'Description for Project One.',
-      imgSrc: 'link_to_image',
-      link: 'https://github.com/yourusername/projectone'
+      title: 'Driver Drowsiness Detection System',
+      description: 'Detect Driver Drowsiness to avoid accidents',
+      imgSrc: 'C:/Users/Lenovo/Desktop/Tech/web/Portfolio website/src/pages/driver drowsiness.jpg',
+      link: 'https://github.com/SiddhiSoni15/driver-drowsiness.git'
     },
     // Add more projects here
   ];

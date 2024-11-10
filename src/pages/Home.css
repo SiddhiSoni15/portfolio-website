@@ -1,14 +1,31 @@
+/* Home.css */
 .home {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .home h1 {
-    color: #333;
-  }
-  
-  .home p {
-    color: #555;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
 
-  
+.home h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.25rem;
+  color: #666;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
