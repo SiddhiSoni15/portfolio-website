@@ -1,0 +1,58 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Layout styles */
+  main {
+    min-height: 80vh;
+    padding: 2rem;
+  }
+  
+  h1, h2, h3 {
+    color: #1a1a1a;
+  }
+  
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #00408d;
+  }
+  
+  /* Responsive grid for projects */
+  .projects-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 2rem;
+  }
+  
+  /* Adjust for smaller devices */
+  @media (max-width: 768px) {
+    header, footer {
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
